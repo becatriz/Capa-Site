@@ -1,0 +1,98 @@
+
+
+html, body{
+
+	width: 100%;
+	height: 60%;
+	background-color: #b2b1c9;
+}
+
+
+
+#menu ul li{
+
+	display: inline-block;
+	font: 24px/45px Helvetica, Sans-Serif; 
+	font-size: 15px;
+	margin: 0 10px;
+	float: right;
+	margin-right: 20px;	 
+	margin-top: 5px;
+}
+
+a{
+
+	text-decoration: none;
+	color: black;
+
+}
+
+#header{
+
+	width: 101%;
+	height: 50px;
+	background-color: #a02329;
+	margin-top: -15px;
+	margin-left: -10px;
+	
+}
+
+img{
+	width: 101%;
+	height: 600px;
+	margin-left: -10px;
+	opacity: 0.5;
+}
+
+h2 { 
+   position: absolute; 
+   top: 35px; 
+   text-align: center;
+   width: 100%; 
+}
+
+
+h2 span{
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: 10px;  
+  
+   /*background: rgba(0, 0, 0, 0.7);*/
+   padding: 10px; 
+
+}
+h5{
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   position: absolute; 
+   letter-spacing: 5px;
+   top: 60px; 
+   font-style: italic;
+   font-size: 11px;
+   text-align: center;
+   width: 100%; 
+}
+
+p{
+
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   position: absolute; 
+   letter-spacing: 1px;
+   font-size: 15px;
+   top: 150px; 
+
+}
+
+#result{
+   position: absolute; 
+   top: 190px; 
+   color: #edf4ee; 
+   font-family: 'Indie Flower', cursive;
+   font-size: 30px;
+   text-align: center;
+   letter-spacing: 10px;  
+   line-height:  70px;
+   margin-left: 180px;
+
+}

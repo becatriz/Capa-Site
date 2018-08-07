@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Site 2</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+
+	var texto = "Seja mais uma desenvolvedora de sites Web !!!";
+	var result;
+
+	var count = 0;
+	var myVar;
+	function digitar() {
+  	result = document.getElementById("result");
+  	window.setTimeout(function() { inserir(texto[count]) }, 80);
+	
+
+
+	}
+
+	function inserir(letra) {
+  	result.innerHTML += letra;
+  	count++;
+  	if(count < texto.length)
+    window.setTimeout(function() { inserir(texto[count]) }, 80);
+
+	}
+	
+	window.onload = digitar;
+
+	
+	
+
+
+	</script>
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+	</style>
+</head>
+<body>
+	
+	<div id=menu>
+		
+		<ul>
+			
+			<li><a href="">Sobre</li></a>
+			<li><a href="">Experiencias</li></a>
+			<li><a href="">Encontros</li></a>
+			<li><a href="">Portfolio</li></a>
+			<li><a href="">Home</li></a>
+		</ul>
+	<div id="header"></div>
+	<div id="conteudo">
+		<img src="img/laptop-coffee_4460x4460.jpg">
+		<h2><span>Desenvolvimento de sites Web<span/></h2>
+		<h5>Conteúdo para densenvolvedoras.</h5>
+		<div id="result"><div>
+
+
+	</div>
+
+
+	</div>
+
+</body>
+</html>
